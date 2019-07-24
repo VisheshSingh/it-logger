@@ -1,0 +1,42 @@
+{
+  "logs": [
+    {
+      "id": 1,
+      "message": "Workstation 125 needs SSD",
+      "attention": true,
+      "date": "05-09-2017",
+      "tech": "Stephen Frein"
+    },
+    {
+      "id": 2,
+      "message": "Workstation 125 not posting",
+      "attention": true,
+      "date": "05-09-2017",
+      "tech": "Dwight Shrute"
+    },
+    {
+      "id": 3,
+      "message": "Changed memory on workstation 003",
+      "attention": false,
+      "date": "11-17-2017",
+      "tech": "Pam Beesley"
+    }
+  ],
+  "techs": [
+    {
+      "id": 1,
+      "firstname": "Stephen",
+      "lastname": "Frein"
+    },
+    {
+      "id": 2,
+      "firstname": "Dwight",
+      "lastname": "Shrute"
+    },
+    {
+      "id": 3,
+      "firstname": "Pam",
+      "lastname": "Beesley"
+    }
+  ]
+}
