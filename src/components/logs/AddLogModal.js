@@ -8,7 +8,10 @@ const AddLogModal = () => {
 
   const onSubmit = () => {
     if (message === '' && tech === '') {
-      M.toast({ html: 'Please enter a message and techician' });
+      M.toast({
+        html: 'Please enter a message and techician',
+        classes: 'rounded'
+      });
     }
     console.log(message, attention, tech);
   };
