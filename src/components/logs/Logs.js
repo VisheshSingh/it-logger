@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import LogItem from './LogItem';
 
 const Logs = () => {
   const [logs, setLogs] = useState([]);
@@ -23,14 +24,14 @@ const Logs = () => {
     return <h4>Loading</h4>;
   }
   return (
-    <ul className="collection-item-header">
+    <ul className="collection with-header">
       <li className="collection-header">
         <h4 className="center">System Logs</h4>
       </li>
       {!loading && logs.length === 0 ? (
         <p>No logs yet...</p>
       ) : (
-        logs.map(log => <li key={log.id}>{log.message}</li>)
+        logs.map(log => <LogItem log={log} key={log.id} />)
       )}
     </ul>
   );
