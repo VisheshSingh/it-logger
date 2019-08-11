@@ -12,8 +12,12 @@ const AddLogModal = () => {
         html: 'Please enter a message and techician',
         classes: 'rounded'
       });
+    } else {
+      console.log(message, attention, tech);
+      setMessage('');
+      setTech('');
+      setAttention(false);
     }
-    console.log(message, attention, tech);
   };
 
   return (
