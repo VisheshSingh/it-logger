@@ -20,6 +20,13 @@
       "attention": false,
       "date": "11-17-2017",
       "tech": "Pam Beesley"
+    },
+    {
+      "message": "Changed network card on 007",
+      "attention": false,
+      "tech": "Pam Beesley",
+      "date": "2019-08-12T17:49:07.668Z",
+      "id": 4
     }
   ],
   "techs": [
