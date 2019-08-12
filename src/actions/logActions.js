@@ -8,12 +8,12 @@ export const getLogs = () => {
       const data = await res.json();
 
       dispatch({
-        type: 'GET_LOGS',
+        type: GET_LOGS,
         payload: data
       });
     } catch (err) {
-      dispacth({
-        type: 'LOGS_ERROR',
+      dispatch({
+        type: LOGS_ERROR,
         payload: err.response.data
       });
     }
