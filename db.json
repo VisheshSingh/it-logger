@@ -25,18 +25,18 @@
   "techs": [
     {
       "id": 1,
-      "firstname": "Stephen",
-      "lastname": "Frein"
+      "firstName": "Stephen",
+      "lastName": "Frein"
     },
     {
       "id": 2,
-      "firstname": "Dwight",
-      "lastname": "Shrute"
+      "firstName": "Dwight",
+      "lastName": "Shrute"
     },
     {
       "id": 3,
-      "firstname": "Pam",
-      "lastname": "Beesley"
+      "firstName": "Pam",
+      "lastName": "Beesley"
     }
   ]
 }
