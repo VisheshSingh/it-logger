@@ -84,7 +84,7 @@ export const updateLog = log => {
   return async dispatch => {
     try {
       setLoading();
-      await fetch(`/logs/${id}`, {
+      const res = await fetch(`/logs/${log.id}`, {
         method: 'PUT',
         body: JSON.string(log),
         headers: {
