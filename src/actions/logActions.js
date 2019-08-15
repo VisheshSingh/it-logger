@@ -86,7 +86,7 @@ export const updateLog = log => {
       setLoading();
       const res = await fetch(`/logs/${log.id}`, {
         method: 'PUT',
-        body: JSON.string(log),
+        body: JSON.stringify(log),
         headers: {
           'Content-Type': 'application/json'
         }
