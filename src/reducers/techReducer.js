@@ -20,7 +20,12 @@ export default (state = initState, action) => {
         loading: false,
         techs: action.payload
       };
-
+    case ADD_TECH:
+      return {
+        ...state,
+        techs: [...state.techs, action.payload],
+        loading: false
+      };
     case SET_LOADING:
       return {
         ...state,
